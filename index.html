@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    <title>Projeto Instagram - Alice Lipski T7</title>
+</head>
+<body>
+    <!-- div master -->
+    <div class="master">
+    <!-- barra topo -largura 100% -->
+        <div class="barratopo">
+            <!-- largura 935px-->
+            <div class="centralcontent1">
+                <!-- logo e home -->
+                <div class="alinharlogo">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <div></div>
+                    <a href="https://www.instagram.com/"><img src="logo-instagram.svg" alt="logo-instagram"></a>
+                </div>
+                <!-- barra de pesquisa -->
+                <div>
+                    <a id="troca" href="https://www.instagram.com/"><img src="logo-instagram.svg" alt="logo-instagram"></a>
+                </div>
+                <div id="troca2" class="alinharpesquisa">
+                    <p>Pesquisar</p>
+                </div>
+                <!-- icones direta -->
+                <div class="alinharicones">
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                    <ion-icon id="sumir" name="compass-outline"></ion-icon>
+                    <ion-icon id="sumir" name="heart-outline"></ion-icon>
+                    <ion-icon id="iconespecial" name="person-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <!-- conteudo da pagina - largura 100% -->
+        <div class="alinhargeral">
+            <!-- conteudo central - largura 935px-->
+            <div class="centralcontent2">
+                <div class="alinharfeed">
+                    <!-- caixa stories -->
+                    <div class="boxstories">
+                        <div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/9gag.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>9gag</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/meowed.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>meowed</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/barked.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>barked</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/strangeplanet.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>nathanwpyle...</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/wawawiwacomicsa.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>wawawiwac...</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/respondeai.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>respondeai</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/filomoderna.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>filomoderna</p>
+                                </div>
+                            </div>
+                            <div class="umstory">
+                                <img src="stories_background.jpg" id="fundo" alt="">
+                                <img src="images/memeriagourmet.svg" id="foto" alt="">
+                                <div class="username">
+                                    <p>memeriago</p>
+                                </div>
+                            </div>
+                            <ion-icon class="setinha" name="chevron-forward-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- feed -->
+                    <div class="feed">
+                        <div class="post">
+                            <div class="barrauser">
+                                <div>
+                                    <div><img src="images/meowed.svg"></div>
+                                    <div><p>meowed</p></div>
+                                </div>
+                                <div>
+                                    <div><img id="more" src="images/3pts.svg"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <img id="fotopost" src="images/1.png">
+                            </div>
+                            <div class="icones">
+                                <div>
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                </div>
+                                <div>
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="curtidas">
+                                <div><img src="images/respondeai.svg"></div>
+                                <div><p>Curtido por <strong>respondeai</strong> e outras <strong>101.523 pessoas</strong></p></div>
+                            </div>
+                        </div>
+                        <div class="post2">
+                            <div class="barrauser">
+                                <div>
+                                    <div><img src="images/barked.svg"></div>
+                                    <div><p>barked</p></div>
+                                </div>
+                                <div>
+                                    <div><img id="more" src="images/3pts.svg"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <video id="fotopost" autoplay muted>
+                                    <source src="images/catvideo.mp4" type="video/mp4">
+                                    <source src="images/catvideo.ogg" type="video/ogg">
+                                    Your broser
+                                </video> 
+                            </div>
+                            <div class="icones">
+                                <div>
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                </div>
+                                <div>
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="curtidas">
+                                <div><img src="images/adorableanimals.svg"></div>
+                                <div><p>Curtido por <strong>adorable_animals</strong> e outras <strong>99.159 pessoas</strong></p></div>
+                            </div>
+                        </div>
+                        <div class="post2">
+                            <div class="barrauser">
+                                <div>
+                                    <div><img src="images/barked.svg"></div>
+                                    <div><p>barked</p></div>
+                                </div>
+                                <div>
+                                    <div><img id="more" src="images/3pts.svg"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <img id="fotopost" src="images/2.png">
+                            </div>
+                            <div class="icones">
+                                <div>
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                </div>
+                                <div>
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="curtidas2">
+                                <div><p><strong>261 likes</strong></p></div>
+                            </div>
+                            <div class="comment">
+                                <div><p><strong>barked </strong>we usually post only dog pictures, we know. But everybody knows cats are better.</p></div>
+                            </div>
+                            <div class="viewcomments">
+                                <div><p><a href="">View all 10 comments</a></p></div>
+                            </div>
+                            <div class="comment">
+                                <div><p><strong>professionalcomplainer </strong>I liked you more when you just posted about dogs</p></div>
+                            </div>
+                            <div class="comment">
+                                <div><p><strong>annoyingarguer </strong>That's unacceptable. How come you just assume everyone likes cats instead of dogs?</p></div>
+                            </div>
+                            <div class="timeposted">
+                                <div><p>23 HOURS AGO</p></div>
+                            </div>
+                            <hr>
+                            <div class="alignform">
+                                <div class="addcomment">
+                                    <div><ion-icon name="happy-outline"></ion-icon></div>
+                                    <div class="form">
+                                        <input placeholder="Add a comment..." />
+                                    </div>
+                                    <div><a href=""><p id="postcomment">Post</p></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post2">
+                            <div class="barrauser">
+                                <div>
+                                    <div><img src="images/9gag.svg"></div>
+                                    <div><p>9gag</p></div>
+                                </div>
+                                <div>
+                                    <div><img id="more" src="images/3pts.svg"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <img id="fotopost" src="images/4.png">
+                            </div>
+                            <div class="icones">
+                                <div>
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                </div>
+                                <div>
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="curtidas">
+                                <div><img src="images/smallcutecats.svg"></div>
+                                <div><p>Curtido por <strong>smallcutecats</strong> e outras <strong>125.478 pessoas</strong></p></div>
+                            </div>
+                        </div>
+                        <div class="post2">
+                            <div class="barrauser">
+                                <div>
+                                    <div><img src="images/wawawiwacomicsa.svg"></div>
+                                    <div><p>wawawiwacomicsa</p></div>
+                                </div>
+                                <div>
+                                    <div><img id="more" src="images/3pts.svg"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <img id="fotopost" src="images/6.png">
+                            </div>
+                            <div class="icones">
+                                <div>
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                </div>
+                                <div>
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="curtidas">
+                                <div><img src="images/chibirdart.svg"></div>
+                                <div><p>Curtido por <strong>chibidart</strong> e outras <strong>87.829 pessoas</strong></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar -->
+                <div class="sidebar">
+                    <!-- Secao 1 sidebar - meu perfil -->
+                    <div class="userprincipal">
+                        <div><img src="images/catanacomics.svg"></div>
+                        <div>
+                            <p id="user">catanacomics</p>
+                            <p id="name">Catana</p>
+                        </div>
+                    </div>
+                    <!-- Secao 2 sidebar - sugestoes -->
+                    <div class="contsidebar">
+                        <div><p id="sugestoes">Sugestões para você</p></div>
+                        <div><p id="vertudo">Ver tudo</p></div>
+                    </div>
+                    <!-- Secao 3 sidebar - perfis para seguir -->
+                    <div class="perfis5">
+                        <div class="contsidebar2">
+                            <div class="perfil">
+                                <div><img src="images/badvibesmemes.svg"></div>
+                                <div>
+                                    <p id="user2">bad.vibes.memes</p>
+                                    <p id="name2">Segue você</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p id="follow">Seguir</p>
+                            </div>
+                        </div>
+                        <div class="contsidebar3">
+                            <div class="perfil">
+                                <div><img src="images/chibirdart.svg"></div>
+                                <div>
+                                    <p id="user2">chibidart</p>
+                                    <p id="name2">Segue você</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p id="follow">Seguir</p>
+                            </div>
+                        </div>
+                        <div class="contsidebar3">
+                            <div class="perfil">
+                                <div><img src="images/razoesparaacreditar.svg"></div>
+                                <div>
+                                    <p id="user2">razoesparaacreditar</p>
+                                    <p id="name2">Novo no Instagram</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p id="follow">Seguir</p>
+                            </div>
+                        </div>
+                        <div class="contsidebar3">
+                            <div class="perfil">
+                                <div><img src="images/adorableanimals.svg"></div>
+                                <div>
+                                    <p id="user2">adorable_animals</p>
+                                    <p id="name2">Segue você</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p id="follow">Seguir</p>
+                            </div>
+                        </div>
+                        <div class="contsidebar3">
+                            <div class="perfil">
+                                <div><img src="images/smallcutecats.svg"></div>
+                                <div>
+                                    <p id="user2">smallcutecats</p>
+                                    <p id="name2">Segue você</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p id="follow">Seguir</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 18px;">
+                        <p class="cinza">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
+                            Termos • Localizações • Contas mais relevantes • Hashtags • 
+                            Idioma</p>
+                    </div>
+                    <div>
+                        <p class="cinza">© 2021 INSTAGRAM DO FACEBOOK</p>
+                    </div>
+                </div>
+            <div class="bottombar">
+                <div class="bottombarcontent">
+                    <div><ion-icon name="home"></ion-icon></div>
+                    <div><ion-icon name="search-outline"></ion-icon></ion-icon></div>
+                    <div><ion-icon name="add-circle-outline"></ion-icon></div>
+                    <div><ion-icon name="heart-outline"></ion-icon></div>
+                    <div><ion-icon name="person-outline"></ion-icon></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,561 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.master {
+    width: 100%;
+
+}
+
+.barratopo {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 54px;
+    border-bottom: 1px solid #DBDBDB;
+    width: 100%;
+    z-index: 1;
+}
+
+.centralcontent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 935px;
+    height: 22px;
+}
+
+.centralcontent1 div {
+    display: flex;
+   
+}
+
+.centralcontent1 ion-icon {
+    font-size: 22px;
+}
+
+.centralcontent1 img {
+    height: 30px;
+    top: 0px;
+}
+
+.alinharpesquisa {
+    height: 28px;
+    width: 215px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralcontent1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+}
+
+.alinharlogo {
+    display: flex;
+    align-items: top;
+    height: 22px;
+}
+
+.alinharlogo div {
+    height: auto;
+    width: 0.6x;
+    border: 0.6px solid #DBDBDB;
+    margin: 0 8px 0 8px;
+}
+
+.alinharicones ion-icon {
+    margin: 0 10px 0 10px;
+}
+
+#iconespecial {
+    margin-right: 0;
+}
+
+#troca {
+    display: none;
+}
+
+.boxstories {
+    display: flex;
+    width: 614px;
+    height: 118px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxstories > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    height: 118px;
+}
+.umstory {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin: 7px;
+    height: 92px;
+    width: 66px;
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+}
+
+.username p {
+    padding: 7px;
+}
+
+#fundo {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+#foto{
+    position: absolute;
+    top: 5px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.centralcontent2 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 935px;
+    margin-top: 88px;
+    margin-bottom: 30px;
+}
+
+.alinharfeed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alinhargeral {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.setinha {
+    position: absolute;
+    right: 32px;
+    height: 32px;
+    width: 32px;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.feed {
+    width: 614px;
+    margin-top: 24px;
+}
+
+.post {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    padding-bottom: 14px;
+}
+
+.post div {
+    display: flex;
+    align-items: center;
+}
+
+.post2 {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    padding-bottom: 14px;
+    margin-top: 60px;
+}
+
+.post2 div {
+    display: flex;
+    align-items: center;
+}
+
+.barrauser {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 17px 0 17px;
+}
+
+.barrauser img {
+    border-radius: 50%;
+    height: 32px;
+}
+
+.barrauser p {
+    margin-left: 15px;
+}
+
+.icones {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+    padding: 0 7px 0 7px;
+}
+
+.icones ion-icon {
+    padding: 0 7px 0 7px;
+}
+
+#more {
+    height: 16px;
+}
+
+#fotopost {
+    width: 100%;
+    object-fit: contain;
+}
+
+.curtidas {
+    display: flex;
+    justify-content: start;
+}
+
+.curtidas2 {
+    display: flex;
+    justify-content: start;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 14px;
+}
+
+.comment {
+    display: flex;
+    justify-content: start;
+    margin-left: 17px;
+    margin-top: 13px;
+    margin: 13px 17px 0 17px;
+    font-size: 14px;
+}
+
+.viewcomments {
+    display: flex;
+    justify-content: start;
+    margin-left: 17px;
+    margin-top: 13px;
+    margin: 13px 17px 0 17px;
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+
+.viewcomments a, a:visited {
+    color: inherit;
+}
+
+
+.timeposted {
+    display: flex;
+    justify-content: start;
+    margin-left: 17px;
+    margin-top: 13px;
+    margin: 13px 17px 17px 17px;
+    font-size: 11px;
+    color: #8e8e8e;
+    font-weight: 300;
+}
+
+.curtidas img {
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 17px;
+}
+
+.curtidas p {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.alignform {
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin:17px 17px 0 17px;
+    object-fit: contain;
+}
+
+hr {
+    border-top: 1px solid #efefef;
+    border-bottom: none;
+}
+
+.addcomment {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addcomment ion-icon {
+    font-size: 28px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form input {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 17px 0 17px;
+    border: none;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #979791;
+    font-weight: 400;
+  } 
+
+  #postcomment {
+    font-weight: 500;
+    color: #139ef2;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 293px;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    height: 56px;
+    width: 56px;
+}
+
+#user {
+    font-weight: 500;
+    margin-left: 17px;
+    font-size: 14px;
+}
+#vertudo {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#name {
+    font-weight: 300;
+    color: #8e8e8e;
+    margin-left: 17px;
+    margin-top: 1.6px;
+    font-size: 14px;
+}
+
+.userprincipal {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+#sugestoes {
+    font-weight: 500;
+    color: #8E8E8E;
+}
+
+#user2 {
+    font-weight: 500;
+    margin-left: 11px;
+    font-size: 14px;
+}
+
+#name2 {
+    font-weight: 400;
+    color: #8e8e8e;
+    margin: 4.5px 0 0 11px;
+    font-size: 12px;
+}
+
+.contsidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0 0 0;
+}
+
+.contsidebar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 16px 0;
+    padding-top: 16px;
+}
+
+.contsidebar3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 16px 0;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#follow {
+    font-weight: 500;
+    color: #139ef2;
+}
+
+.perfil img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.perfis5 {
+    margin-bottom: 17px;
+}
+
+.cinza {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+
+.bottombar {
+    display: none;
+}
+
+@media only screen and (max-width: 935px) { 
+    .sidebar {
+        display:none;
+    }
+
+    .centralcontent1 {
+        margin: 0 16px 0 16px;
+    }
+    
+    .centralcontent2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 614px) { 
+    .alinharlogo div {
+        display: none;
+    }
+
+    .alinharlogo img {
+        display: none;
+    }
+
+    .sidebar {
+        display:none;
+    }
+    
+    .alinharfeed {
+        width:100%
+    }
+
+    .centralcontent2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 54px;
+        width: 100%;
+    }
+
+    #troca2 {
+        display: none;
+    }
+
+    #troca {
+        display: contents;
+    }
+
+    #sumir {
+        display: none;
+    }
+
+    #iconespecial {
+        display: none;
+    }
+
+    .boxstories {
+        background: none;
+        border: none;
+        width: 100%;
+    }
+
+    .setinha {
+        display: none;
+    }
+
+    .feed {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .bottombar {
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        height: 54px;
+        border-top: 1px solid #DBDBDB;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .bottombarcontent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 22px;
+        margin: 0 19px 0 19px;
+        font-size: 22px;
+    }
+}
